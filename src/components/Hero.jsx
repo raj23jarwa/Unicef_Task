@@ -163,7 +163,7 @@ const Hero = () => {
             <img
               src={donatebtn}
               alt="donate button"
-              className="md:w-full w-1/2 relative md:left-24 left-64"
+              className="md:w-full w-1/2 relative md:left-24 left-60"
             />
           </ScrollLink>
         </div>
