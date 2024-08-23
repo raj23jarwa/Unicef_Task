@@ -33,7 +33,7 @@ const DonationForm = () => {
               </li>
             ))}
           </ul>
-          <ul className="flex flex-wrap p-2 md:p-5 gap-2 md:gap-5 justify-center md:justify-start">
+          <ul className="flex flex-wrap p-2 md:p-5 gap-2 md:gap-5 justify-start md:justify-start">
             {amounts.map((amount) => (
               <li key={amount}>
                 <button
@@ -84,7 +84,7 @@ const DonationForm = () => {
             </div>
           </div>
           <div className="flex justify-center items-center w-full mt-4">
-            <button className="bg-[#feba14] text-xl text-white px-44 md:px-60 py-2 rounded-md">
+            <button className="bg-[#feba14] text-xl text-white px-40 md:px-60 py-2 rounded-md">
               NEXT
             </button>
           </div>
